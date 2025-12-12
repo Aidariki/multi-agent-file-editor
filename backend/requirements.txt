@@ -3,12 +3,23 @@
 # FastAPI framework
 fastapi
 uvicorn[standard]
+websockets
 
 # File handling
 python-multipart
 
-# Future dependencies (uncomment when ready)
-# langchain
-# langgraph
-# ollama  # для локальной LLM
-# langchain-google-genai  # для Gemini API
+# LangChain & LangGraph для multi-agent системы
+langchain
+langchain-core
+langgraph
+
+# LLM providers (раскомментируйте нужный)
+# Вариант 1: Локальная LLM через Ollama
+# ollama
+# langchain-ollama
+
+# Вариант 2: Google Gemini API (рекомендуется для начала)
+langchain-google-genai
+
+# Дополнительные инструменты
+langchain-community

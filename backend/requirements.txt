@@ -1,0 +1,14 @@
+# Python dependencies for Multi-Agent File Editor
+
+# FastAPI framework
+fastapi
+uvicorn[standard]
+
+# File handling
+python-multipart
+
+# Future dependencies (uncomment when ready)
+# langchain
+# langgraph
+# ollama  # для локальной LLM
+# langchain-google-genai  # для Gemini API
